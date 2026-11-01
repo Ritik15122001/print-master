@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import "./components.css";
+@import "./animations.css";
+
+/* Design tokens — values copied from the reference :root */
+:root {
+  --paper: #F6F3EC; --sheet: #FFFFFF; --ink: #151515; --ink2: #3A3936; --muted: #7C7870; --rule: rgba(21,21,21,.14);
+  --c: #00A0DC; --m: #E4007C; --y: #FFD200; --k: #151515; --forest: #173C32; --gold: #B58A4A;
+  --wa: #1F9D55; --wa-dark: #167A41;
+  --sans: 'Bricolage Grotesque', system-ui, sans-serif;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --mono: 'DM Mono', ui-monospace, monospace;
+  --wrap: min(1280px, 100% - 56px);
+  --ease: cubic-bezier(.2,.7,.2,1);
+}
+@media (max-width: 860px) { :root { --wrap: calc(100% - 40px); } }
+@media (max-width: 560px) { :root { --wrap: calc(100% - 32px); } }
+
+/* Breakpoints mirror the reference's max-width queries: max-sm ≤560, max-md ≤860, max-lg ≤1100 */
+@theme inline {
+  --breakpoint-sm: 35.0625rem;
+  --breakpoint-md: 53.8125rem;
+  --breakpoint-lg: 68.8125rem;
+  --color-paper: var(--paper); --color-sheet: var(--sheet); --color-ink: var(--ink); --color-ink2: var(--ink2);
+  --color-muted: var(--muted); --color-rule: var(--rule);
+  --color-cyan: var(--c); --color-magenta: var(--m); --color-yellow: var(--y); --color-key: var(--k);
+  --color-forest: var(--forest); --color-gold: var(--gold); --color-wa: var(--wa); --color-wa-dark: var(--wa-dark);
+  --font-sans: var(--sans); --font-serif: var(--serif); --font-mono: var(--mono);
+  --ease-print: var(--ease);
+}
+
+@layer base {
+  html { overflow-x: clip; scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17px/1.6 var(--sans); overflow-x: hidden; }
+  body::before {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 400; opacity: .35; mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.45 0 0 0 0 0.4 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  img { display: block; max-width: 100%; }
+  a { color: inherit; text-decoration: none; }
+  button, input, select, textarea { font: inherit; color: inherit; }
+  svg { display: inline; }
+  :focus-visible { outline: 2px solid var(--m); outline-offset: 3px; }
+  section { padding: clamp(80px,10vw,140px) 0; position: relative; }
+  h1, h2, h3 { font-family: var(--sans); font-weight: 700; letter-spacing: -.035em; line-height: .95; margin: 0; }
+  h2 { font-size: clamp(2.6rem,6.4vw,5.6rem); }
+  p { margin: 1em 0; }
+  blockquote, dl, dd, figure { margin: 0; }
+}
