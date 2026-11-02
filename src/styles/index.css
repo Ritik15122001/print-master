@@ -5,7 +5,7 @@
 /* Design tokens — values copied from the reference :root */
 :root {
   --paper: #F6F3EC; --sheet: #FFFFFF; --ink: #151515; --ink2: #3A3936; --muted: #7C7870; --rule: rgba(21,21,21,.14);
-  --c: #00A0DC; --m: #E4007C; --y: #FFD200; --k: #151515; --forest: #173C32; --gold: #B58A4A;
+  --c: #1168B3; --m: #F4771F; --y: #FFB648; --k: #151515; --forest: #173C32; --gold: #B58A4A;
   --wa: #1F9D55; --wa-dark: #167A41;
   --sans: 'Bricolage Grotesque', system-ui, sans-serif;
   --serif: 'Instrument Serif', Georgia, serif;
