@@ -25,7 +25,7 @@ function SpecSheet({ project: p, onSeeWork }) {
       {media}
       <div className="sheet">
         <span className="mono" style={{ color: p.jobColor }}>{p.job}</span>
-        <h3>{p.title} <span className="it alt">{p.titleIt}</span></h3>
+        <h3><span className="text-cyan">{p.title}</span> <span className="it alt">{p.titleIt}</span></h3>
         <p>{p.text}</p>
         <dl>
           {p.specs.map((s) => (

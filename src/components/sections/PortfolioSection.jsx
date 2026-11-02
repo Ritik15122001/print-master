@@ -98,7 +98,7 @@ export default function PortfolioSection({ filter, onFilterChange }) {
         <SectionTop
           label="Selected creative work"
           headingId="pf-h"
-          heading={<>Good design makes a <span className="it">lasting</span> impression.</>}
+          heading={<>Good design makes a <span className="it alt">lasting</span> impression.</>}
           text="Explore selected branding, print, digital, and creative projects from our portfolio. Drag, scroll or use the arrows."
         />
         <RevealOnScroll className="mb-7 flex flex-wrap items-center justify-between gap-5 border-b border-rule pb-[18px]">

@@ -27,9 +27,9 @@ export default function AboutSection() {
         </RevealOnScroll>
         <RevealOnScroll>
           <SectionLabel>About Print Master</SectionLabel>
-          <h2 id="ab-h" className="mb-[26px]">Creative thinking. <span className="it">Thoughtful execution.</span></h2>
+          <h2 id="ab-h" className="mb-[26px] text-cyan">Creative thinking. <span className="it alt">Thoughtful execution.</span></h2>
           <blockquote className="mb-[30px] font-serif text-[clamp(2rem,3.6vw,3.2rem)] italic leading-[1.05] tracking-[-.01em]">
-            “We turn ideas into things people remember.”
+            “<span className="text-cyan">We turn</span> <span className="text-magenta">ideas</span> <span className="text-cyan">into things</span> <span className="text-magenta">people</span> <span className="text-cyan">remember.</span>”
           </blockquote>
           {/* ABOUT COPY REPLACEMENT POINT */}
           <p className="mt-0 mb-4 max-w-[52ch] text-ink2">
@@ -38,10 +38,10 @@ export default function AboutSection() {
           <p className="mt-0 mb-4 max-w-[52ch] text-ink2">
             Because concept and production work side by side, every brochure, campaign and brand asset is designed with the finished result in mind.
           </p>
-          <div className="mt-[30px] grid grid-cols-4 border-t-[1.5px] border-ink max-md:grid-cols-2 max-md:gap-y-3.5">
-            {PAIRS.map(([b, s]) => (
+          <div className="mt-[30px] grid grid-cols-4 border-t-[1.5px] border-cyan max-md:grid-cols-2 max-md:gap-y-3.5">
+            {PAIRS.map(([b, s], i) => (
               <div key={b} className="pt-4 pr-3">
-                <b className="block text-[1.15rem] tracking-[-.02em]">{b}</b>
+                <b className={`block text-[1.15rem] tracking-[-.02em] ${i % 2 === 0 ? 'text-cyan' : 'text-magenta'}`}>{b}</b>
                 <span className="text-[.85rem] text-muted">{s}</span>
               </div>
             ))}

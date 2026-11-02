@@ -6,13 +6,13 @@ const EXPLORE = NAV_LINKS.filter((l) => l.id !== 'home');
 
 export default function Footer({ onQuote }) {
   const year = new Date().getFullYear();
-  const h4 = 'mono mb-3.5 mt-0 text-[.68rem] font-medium tracking-[.12em] text-muted';
+  const h4 = 'mono mb-3.5 mt-0 inline-block border-b-2 border-magenta pb-1.5 text-[.68rem] font-medium tracking-[.12em] text-muted';
   return (
     <footer className="border-t-[1.5px] border-ink pt-20 pb-[calc(28px+env(safe-area-inset-bottom))]">
       <div className="wrap">
         <div className="ft grid grid-cols-[1.8fr_1fr_1fr_1.3fr] gap-10 max-md:grid-cols-2">
           <div className="max-md:col-span-full">
-            <p className="m-0 max-w-[18ch] font-serif text-[clamp(1.8rem,3.2vw,2.6rem)] italic leading-[1.1]">
+            <p className="m-0 max-w-[18ch] border-b-[1.5px] border-cyan pb-6 font-serif text-[clamp(1.8rem,3.2vw,2.6rem)] italic leading-[1.1] text-cyan">
               We turn ideas into things people remember.
             </p>
           </div>

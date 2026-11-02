@@ -28,13 +28,13 @@ export default function ProcessSection() {
         </div>
         <RevealOnScroll>
           <SectionLabel>Process — Four plates, one print</SectionLabel>
-          <h2 id="pr-h" className="mb-[30px]">How we <span className="it alt">work.</span></h2>
+          <h2 id="pr-h" className="mb-[30px] text-cyan">How we <span className="it alt">work.</span></h2>
           <ol>
             {STEPS.map((s, i) => (
-              <li key={s.n} className={`grid grid-cols-[58px_1fr] items-start gap-[18px] border-b border-rule py-6 ${i === 0 ? 'border-t-[1.5px] border-t-ink' : ''}`}>
+              <li key={s.n} className={`grid grid-cols-[58px_1fr] items-start gap-[18px] border-b border-rule py-6 ${i === 0 ? 'border-t-[1.5px] border-t-cyan' : ''}`}>
                 <span className={`grid size-[58px] place-items-center font-mono text-[.8rem] font-medium ${s.sw}`}>{s.n}</span>
                 <div>
-                  <h3 className="text-[1.8rem] tracking-[-.03em]">{s.t}</h3>
+                  <h3 className="text-[1.8rem] tracking-[-.03em] text-cyan">{s.t}</h3>
                   <p className="mt-1.5 mb-0 text-ink2">{s.d}</p>
                 </div>
               </li>
