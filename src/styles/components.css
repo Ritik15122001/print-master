@@ -201,8 +201,8 @@
   .status a { text-decoration: underline; }
 
   /* footer */
-  .mega { font-weight: 800; letter-spacing: -.065em; font-size: clamp(4rem,17vw,16.5rem); line-height: .8; margin: 60px 0 26px; white-space: nowrap; overflow: hidden; }
-  .mega span { color: transparent; -webkit-text-stroke: 1.5px var(--ink); }
+  .mega { font-weight: 800; letter-spacing: -.065em; font-size: clamp(4rem,17vw,16.5rem); line-height: .8; margin: 60px 0 26px; white-space: nowrap; overflow: hidden; color: var(--m); }
+  .mega span { color: transparent; -webkit-text-stroke: 1.5px var(--c); }
   .ft a:hover { color: var(--m); }
 
   /* floating actions */
