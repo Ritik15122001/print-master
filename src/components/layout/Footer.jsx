@@ -46,6 +46,10 @@ export default function Footer({ onQuote }) {
           <ColorBar style={{ width: 120, height: 10 }} />
           <span>Ideas made tangible</span>
         </div>
+        <div className="mono mt-3 text-center text-[.7rem] tracking-[.08em] text-muted">
+          Made with <span aria-hidden="true">❤️</span> by{' '}
+          <a href="https://www.truorbit.in" target="_blank" rel="noopener noreferrer" className="font-semibold text-ink2">TruOrbit</a>
+        </div>
       </div>
     </footer>
   );
