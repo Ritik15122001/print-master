@@ -13,7 +13,7 @@ function ClientLogo({ client, n }) {
 
 export default function ClientsSection() {
   return (
-    <section className="clients bg-ink text-[#EDEAE2]" id="clients" aria-labelledby="cl-h">
+    <section className="clients bg-[#10263D] text-[#EDEAE2]" id="clients" aria-labelledby="cl-h">
       <div className="wrap">
         <SectionTop
           dark
