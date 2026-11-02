@@ -27,8 +27,8 @@ export default function HeroSection() {
           <span>Sheet 01 — Proof</span>
         </div>
         <h1 className="misreg">
-          <span className="row">Ideas made</span>
-          <span className="row it">tangible.</span>
+          <span className="row text-cyan">Ideas made</span>
+          <span className="row it alt">tangible.</span>
         </h1>
         <div className="grid grid-cols-[1fr_1.25fr] items-end gap-[clamp(24px,4vw,60px)] max-md:grid-cols-1">
           <div className="fade">

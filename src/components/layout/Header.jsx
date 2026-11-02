@@ -40,7 +40,7 @@ export default function Header({ scrolled }) {
         {/* LOGO: src/assets/images/logo.png — replace the file to update it */}
         <a href="#home" className="brand" aria-label="Print Master home" onClick={close}>
           <img src={logoUrl} alt="" width={512} height={460} className="h-[38px] w-auto" />
-          <span>Print Master<small>DESIGN · PRINT · DIGITAL</small></span>
+          <span><span className="text-magenta">Print</span> <span className="text-cyan">Master</span><small>DESIGN · PRINT · DIGITAL</small></span>
         </a>
         <MobileMenuButton ref={burgerRef} open={open} onToggle={() => setOpen((o) => !o)} />
         <Navigation ref={firstLinkRef} open={open} active={active} onNavigate={close} />

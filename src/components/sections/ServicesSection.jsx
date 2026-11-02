@@ -9,7 +9,7 @@ export default function ServicesSection({ onSeeWork, onQuote }) {
         <SectionTop
           label="Swatch book — Services"
           headingId="sv-h"
-          heading={<>Everything your brand needs to <span className="it">stand out.</span></>}
+          heading={<>Everything your brand needs to <span className="it alt">stand out.</span></>}
           text="Pick your shade. Ten services, one studio — each one links to related work or straight to a quote."
         />
         <div className="swatches">

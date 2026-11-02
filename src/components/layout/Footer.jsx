@@ -34,6 +34,7 @@ export default function Footer({ onQuote }) {
               <li><a href={telHref || undefined}>{siteConfig.phone}</a></li>
               <li><a href={telHref2 || undefined}>{siteConfig.phone2}</a></li>
               <li><a href={mailHref || undefined}>{siteConfig.email}</a></li>
+              <li><a href={siteConfig.instagramUrl} target="_blank" rel="noopener noreferrer">Instagram</a></li>
               <li className="max-w-[24ch]">{siteConfig.address}</li>
               <li className="mono text-[.7rem] tracking-[.12em]">{siteDomain}</li>
             </ul>

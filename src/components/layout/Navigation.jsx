@@ -20,7 +20,7 @@ const Navigation = forwardRef(function Navigation({ open, active, onNavigate }, 
         </li>
       ))}
       <li>
-        <a href="#contact" className="btn btn-ink" onClick={onNavigate}>Get a Quote</a>
+        <a href="#contact" className="btn btn-quote" onClick={onNavigate}>Get a Quote</a>
       </li>
     </ul>
   );

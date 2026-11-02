@@ -25,7 +25,7 @@ function SpecSheet({ project: p, onSeeWork }) {
       {media}
       <div className="sheet">
         <span className="mono" style={{ color: p.jobColor }}>{p.job}</span>
-        <h3>{p.title} <span className="it">{p.titleIt}</span></h3>
+        <h3>{p.title} <span className="it alt">{p.titleIt}</span></h3>
         <p>{p.text}</p>
         <dl>
           {p.specs.map((s) => (
@@ -54,7 +54,7 @@ export default function FeaturedProjectsSection({ onSeeWork }) {
         <SectionTop
           label="Featured — Spec sheets"
           headingId="ft-h"
-          heading={<>Work, <span className="it">up close.</span></>}
+          heading={<>Work, <span className="it alt">up close.</span></>}
           text="Three pieces from the portfolio, presented the way we'd brief them to press."
         />
         {/* FEATURED REPLACEMENT POINTS: src/data/featuredProjects.js */}

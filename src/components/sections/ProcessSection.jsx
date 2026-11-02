@@ -28,7 +28,7 @@ export default function ProcessSection() {
         </div>
         <RevealOnScroll>
           <SectionLabel>Process — Four plates, one print</SectionLabel>
-          <h2 id="pr-h" className="mb-[30px]">How we <span className="it">work.</span></h2>
+          <h2 id="pr-h" className="mb-[30px]">How we <span className="it alt">work.</span></h2>
           <ol>
             {STEPS.map((s, i) => (
               <li key={s.n} className={`grid grid-cols-[58px_1fr] items-start gap-[18px] border-b border-rule py-6 ${i === 0 ? 'border-t-[1.5px] border-t-ink' : ''}`}>

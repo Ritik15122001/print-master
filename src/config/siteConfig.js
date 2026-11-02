@@ -20,6 +20,7 @@ export const siteConfig = {
   email: 'printmaster.com@gmail.com',
   whatsappNumber: '919999724935',
   defaultWhatsAppMessage: 'Hello Print Master, I would like to know more about your services.',
+  instagramUrl: 'https://www.instagram.com/printmaster2026',
 };
 
 export const siteDomain = siteConfig.siteUrl.replace(/^https?:\/\//, '').replace(/\/$/, '');

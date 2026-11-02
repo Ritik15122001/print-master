@@ -30,6 +30,7 @@ export default function ContactSection({ presetService, formRef }) {
               {siteConfig.phone2 && <Line label="Call" text={siteConfig.phone2} href={telHref2} />}
               <Line label="WhatsApp" text={wa ? 'Chat with us' : 'WhatsApp — to be added'} {...whatsAppLinkProps()} />
               <Line label="Email" text={siteConfig.email || 'Email address — to be added'} href={mailHref || '#contact'} />
+              <Line label="Instagram" text="@printmaster2026" href={siteConfig.instagramUrl} target="_blank" rel="noopener noreferrer" />
               <Line label="Address" text={siteConfig.address} />
               <Line label="Web" text={siteDomain} />
             </div>
