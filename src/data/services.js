@@ -39,19 +39,19 @@ export const IMG = {
 };
 
 export const SERVICES = [
-  { k: 'brand', name: 'Branding & Identity', d: 'Logo design, brand identity systems, visual consistency, and brand assets.', go: 'logo', img: IMG.brand, col: ['#173C32', '#F6F3EC', '#B9CFC6'] },
-  { k: 'graphic', name: 'Graphic Design', d: 'Marketing creatives, campaign graphics, flyers, posters, and promotional layouts.', go: 'all', img: IMG.graphic, col: ['#E4007C', '#fff', '#FFC2E1'] },
-  { k: 'brochure', name: 'Brochures & Catalogues', d: 'Corporate brochures, product catalogues, company profiles, and presentation materials.', go: 'brochure', img: IMG.brochure, col: ['#00A0DC', '#fff', '#C4ECFA'] },
-  { k: 'print', name: 'Printing & Binding', d: 'Business print materials, brochures, stationery, and professionally finished documents.', go: null, img: IMG.print, col: ['#FFD200', '#151515', '#6E5A00'] },
-  { k: 'stationery', name: 'Corporate Stationery', d: 'Business cards, letterheads, envelopes and identity collateral.', go: 'stationery', img: IMG.stationery, col: ['#EDE7DD', '#151515', '#7C7870'] },
-  { k: 'digital', name: 'Digital Marketing', d: 'Social media creatives, advertising assets, and digital brand communication.', go: 'social', img: IMG.digital, col: ['#5B3FD1', '#fff', '#D6CCFF'] },
-  { k: 'web', name: 'Web Design', d: 'Modern, responsive business websites and digital experiences.', go: 'digital', img: IMG.web, col: ['#151515', '#FFD200', '#9A968D'] },
-  { k: 'pack', name: 'Product & Packaging', d: 'Product presentation, labels, packaging layouts, and promotional material design.', go: 'packaging', img: IMG.pack, col: ['#B58A4A', '#fff', '#F3E3C8'] },
-  { k: 'outdoor', name: 'Outdoor Advertising', d: 'Hoardings, banners, display graphics, and large-format advertising.', go: 'outdoor', img: IMG.outdoor, col: ['#E8541E', '#fff', '#FFD5C2'] },
+  { k: 'brand', name: 'Branding & Identity', d: 'Logo design, brand identity systems, visual consistency, and brand assets.', go: 'logo', img: IMG.brand, col: ['#1168B3', '#fff', '#C9DEF2'] },
+  { k: 'graphic', name: 'Graphic Design', d: 'Marketing creatives, campaign graphics, flyers, posters, and promotional layouts.', go: 'all', img: IMG.graphic, col: ['#F4771F', '#fff', '#FDD3B4'] },
+  { k: 'brochure', name: 'Brochures & Catalogues', d: 'Corporate brochures, product catalogues, company profiles, and presentation materials.', go: 'brochure', img: IMG.brochure, col: ['#1168B3', '#fff', '#C9DEF2'] },
+  { k: 'print', name: 'Printing & Binding', d: 'Business print materials, brochures, stationery, and professionally finished documents.', go: null, img: IMG.print, col: ['#F4771F', '#fff', '#FDD3B4'] },
+  { k: 'stationery', name: 'Corporate Stationery', d: 'Business cards, letterheads, envelopes and identity collateral.', go: 'stationery', img: IMG.stationery, col: ['#1168B3', '#fff', '#C9DEF2'] },
+  { k: 'digital', name: 'Digital Marketing', d: 'Social media creatives, advertising assets, and digital brand communication.', go: 'social', img: IMG.digital, col: ['#F4771F', '#fff', '#FDD3B4'] },
+  { k: 'web', name: 'Web Design', d: 'Modern, responsive business websites and digital experiences.', go: 'digital', img: IMG.web, col: ['#1168B3', '#fff', '#C9DEF2'] },
+  { k: 'pack', name: 'Product & Packaging', d: 'Product presentation, labels, packaging layouts, and promotional material design.', go: 'packaging', img: IMG.pack, col: ['#F4771F', '#fff', '#FDD3B4'] },
+  { k: 'outdoor', name: 'Outdoor Advertising', d: 'Hoardings, banners, display graphics, and large-format advertising.', go: 'outdoor', img: IMG.outdoor, col: ['#1168B3', '#fff', '#C9DEF2'] },
   {
     k: 'plus', cta: true, code: 'PM 10-K', name: 'Promotional Merchandise & more', service: 'Promotional Merchandise',
     d: 'Corporate gifts, branded merchandise, and promotional products — or tell us your requirement.', go: null, img: IMG.merch,
-    col: ['#151515', '#FFD200', '#8A867E'],
+    col: ['#F4771F', '#fff', '#FDD3B4'],
   },
 ];
 

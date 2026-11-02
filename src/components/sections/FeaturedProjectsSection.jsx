@@ -33,7 +33,7 @@ function SpecSheet({ project: p, onSeeWork }) {
               <dt>{s.dt}</dt>
               <dd>
                 {s.dots ? (
-                  <span className="dots" aria-label="Cyan, magenta, yellow and black">
+                  <span className="dots" aria-label="Blue, orange, light orange and black">
                     {INKS.map((c) => <b key={c} style={{ background: c }} />)}
                   </span>
                 ) : s.dd}

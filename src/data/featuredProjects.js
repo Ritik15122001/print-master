@@ -29,7 +29,7 @@ export const FEATURED = [
     cta: 'View print work', goto: 'brochure',
   },
   {
-    id: 'campaign', layout: 'wide', job: 'Job 03 · Campaign', jobColor: '#B08C00',
+    id: 'campaign', layout: 'wide', job: 'Job 03 · Campaign', jobColor: 'var(--m)',
     title: 'Big formats,', titleIt: 'bold ideas.',
     text: 'Selected portfolio work — campaign creatives adapted from social feeds to hoardings.',
     images: [{ src: U('photo-1571867424488-4565932edb41', 2000), label: 'Hoarding', alt: 'Outdoor hoarding campaign' }],
